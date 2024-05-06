@@ -28,8 +28,6 @@ data.info()
 data.isnull().sum()
 from sklearn.cluster import KMeans
 wcss = []  #Within-Cluster sum of square.
-```
-```
 for i in range(1,11):
   kmeans=KMeans(n_clusters = i,init = "k-means++")
   kmeans.fit(data.iloc[:,3:])
@@ -57,7 +55,6 @@ plt.legend()
 plt.title("Customer Segments")
 */
 ```
-
 ## Output:
 #### data.head() function
 ![Screenshot 2024-04-24 194332](https://github.com/Aadithya2201/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/145917810/6bfa2030-f79d-4b14-8ddf-928beecf27fc)
