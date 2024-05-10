@@ -10,10 +10,15 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 ## Algorithm
 
 STEP 1.Start
+
 STEP 2.Import pandas and matplotlib.pyplot
+
 STEP 3.Read the dataset and transform it
+
 STEP 4.Import KMeans and fit the data in the model
+
 STEP 5.Plot the Cluster graph
+
 STEP 6.Stop
 
 ## Program:
